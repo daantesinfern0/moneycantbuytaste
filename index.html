@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>moneycantbuytaste</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background-overlay"></div>
+
+  <main class="page-shell">
+    <header class="hero">
+      <h1>moneycantbuy<span class="title-accent">taste</span></h1>
+
+      <nav class="category-toggle" aria-label="Content categories">
+        <button class="toggle-btn" data-category="music" type="button">music</button>
+        <button class="toggle-btn is-active" data-category="movies" type="button">movies</button>
+        <button class="toggle-btn" data-category="tvShows" type="button">shows</button>
+        <button class="toggle-btn" data-category="anime" type="button">anime</button>
+        <button class="toggle-btn" data-category="books" type="button">books</button>
+        <button class="toggle-btn" data-category="games" type="button">games</button>
+      </nav>
+    </header>
+
+    <section class="card" aria-live="polite">
+      <div class="media-wrap">
+        <img id="item-image" src="" alt="" />
+      </div>
+
+      <div class="content-wrap">
+        <span id="item-category" class="item-tag">Movies</span>
+        <h2 id="item-title">Press shuffle to start</h2>
+        <p id="item-creator" class="item-creator">Director / Artist / Creator</p>
+        <p id="item-description" class="item-description">
+          Pick a category and hit shuffle to reveal one of your favorites.
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer-actions">
+      <button id="shuffle-btn" class="shuffle-btn" type="button">Shuffle</button>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
