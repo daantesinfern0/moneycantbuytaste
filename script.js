@@ -120,73 +120,109 @@ const data = {
       title: "No Exit",
       creator: "By Jean-Paul Sartre",
       description: "A claustrophobic existential play that turns self-deception, judgment, and human dependence into psychological torment.",
-      image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80"
+      image: "images/books/no exit.jpg"
     },
     {
       title: "The Brothers Karamazov",
       creator: "By Fyodor Dostoevsky",
       description: "A vast moral and spiritual novel about faith, freedom, guilt, and the chaos inside a fractured family.",
-      image: "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80"
+      image: "images/books/The Brothers Karamazov.jpg"
     },
     {
       title: "A Grief Observed",
       creator: "By C. S. Lewis",
       description: "An intimate meditation on mourning, belief, and the emotional disorientation that follows devastating loss.",
-      image: "https://i.pinimg.com/736x/e9/67/91/e967911c40a3121c38d390002b1a76fb.jpg"
+      image: "images/books/a grief observed.jpg"
     },
     {
       title: "The Stranger",
       creator: "By Albert Camus",
       description: "A stark, quietly disturbing novel about alienation, absurdity, and emotional detachment.",
-      image: "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80"
+      image: "images/books/the stranger.jpg"
     },
     {
       title: "Norwegian Wood",
       creator: "By Haruki Murakami",
       description: "A melancholic coming-of-age novel shaped by memory, longing, and the fragility of intimate connection.",
-      image: "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=900&q=80"
+      image: "images/books/norwegian wood.jpg"
     },
     {
-      title: "The Lord of the Rings",
+      title: "Men Without Women",
+      creator: "By Haruki Murakami",
+      description: "A restrained and melancholic collection of stories about solitude, desire, loss, and the distances between people.",
+      image: "images/books/men without women.jpg"
+    },
+    {
+      title: "The Lord of the Rings Series",
       creator: "By J. R. R. Tolkien",
       description: "An epic fantasy of friendship, sacrifice, and endurance set against the overwhelming pull of power.",
-      image: "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=900&q=80"
+      image: "images/books/the lord of the rings series.jpg"
+    },
+    {
+      title: "The Witcher Series",
+      creator: "By Andrzej Sapkowski",
+      description: "A dark fantasy saga of monsters, fate, war, and moral ambiguity centered on the weary figure of Geralt of Rivia.",
+      image: "images/books/the witcher series.jpg"
+    },
+    {
+      title: "The Tragedy of Macbeth",
+      creator: "By William Shakespeare",
+      description: "A dark tragedy of ambition, guilt, prophecy, and the violent unraveling of a mind consumed by power.",
+      image: "images/books/the tragedy of macbeth.jpg"
+    },
+    {
+      title: "The Masque of the Red Death",
+      creator: "By Edgar Allan Poe",
+      description: "A gothic tale of decadence, plague, and the illusion that wealth can shield anyone from death.",
+      image: "images/books/the masque of the red death.jpg"
+    },
+    {
+      title: "Bill Hodges Trilogy",
+      creator: "By Stephen King",
+      description: "A tense crime trilogy that follows a retired detective through obsession, trauma, and escalating psychological menace.",
+      image: "images/books/bill hodges trilogy.jpg"
+    },
+    {
+      title: "Dracula",
+      creator: "By Bram Stoker",
+      description: "A foundational gothic horror novel of dread, seduction, and the uncanny invasion of modern life by ancient evil.",
+      image: "images/books/dracula.jpg"
     },
     {
       title: "When Breath Becomes Air",
       creator: "By Paul Kalanithi",
       description: "A moving memoir about mortality, meaning, and what makes a life worth living when time grows short.",
-      image: "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80"
+      image: "images/books/when breathe becomes air.jpg"
     },
     {
       title: "The Metamorphosis",
       creator: "By Franz Kafka",
       description: "A surreal and quietly brutal story about alienation, shame, and the collapse of ordinary human bonds.",
-      image: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=900&q=80"
+      image: "images/books/the metamophosis.jpg"
     },
     {
       title: "The Death of Ivan Ilyich",
       creator: "By Leo Tolstoy",
       description: "A piercing novella about dying, spiritual reckoning, and the terrifying emptiness of a conventional life.",
-      image: "https://images.unsplash.com/photo-1519682337058-a94d519337bc?auto=format&fit=crop&w=900&q=80"
+      image: "images/books/death of ivan ilyich.jpg"
     },
     {
       title: "On the Shortness of Life",
       creator: "By Seneca",
       description: "A concise Stoic work arguing that life is long enough if we stop wasting it on distraction and vanity.",
-      image: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=900&q=80"
+      image: "images/books/on the shortness of life.jpg"
     },
     {
       title: "1984",
       creator: "By George Orwell",
       description: "A chilling dystopian novel about surveillance, propaganda, and the destruction of truth and inner freedom.",
-      image: "https://images.unsplash.com/photo-1495640388908-05fa85288e61?auto=format&fit=crop&w=900&q=80"
+      image: "images/books/1984.jpg"
     },
     {
       title: "Brave New World",
       creator: "By Aldous Huxley",
       description: "A sharp dystopian vision where comfort, conditioning, and pleasure become tools of social control.",
-      image: "https://i.pinimg.com/736x/e2/c1/50/e2c1508a0ce208e2e78e8cf7d8f7771a.jpg"
+      image: "images/books/brave new world.jpg"
     }
   ],
   music: [

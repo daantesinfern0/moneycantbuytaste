@@ -3,8 +3,8 @@
   --line: rgba(255, 255, 255, 0.12);
   --text: #f6f2ea;
   --muted: #f6f2ea;
-  --accent: #9941d4;
-  --accent-strong: #6104b4;
+  --accent: #4b6f96;
+  --accent-strong: #2f4f73;
 }
 
 * {
@@ -29,7 +29,7 @@ body {
   font-family: "Manrope", sans-serif;
   background:
     linear-gradient(rgba(8, 10, 14, 0.48), rgba(8, 10, 14, 0.74)),
-    url("https://i.pinimg.com/736x/4d/f6/c9/4df6c9d7bc79785208a4bf38bbe0e04c.jpg")
+    url("images/backgrounds/desktop view.JPG")
       center / cover no-repeat fixed;
 }
 
@@ -218,7 +218,9 @@ h1 {
 @media (max-width: 820px) {
   body {
     padding: 20px 14px 28px;
-    background-attachment: scroll;
+    background:
+      linear-gradient(rgba(8, 10, 14, 0.48), rgba(8, 10, 14, 0.74)),
+      url("images/backgrounds/mobile view.JPG") center / cover no-repeat scroll;
   }
 
   .page-shell {
@@ -228,7 +230,7 @@ h1 {
 
   .card {
     grid-template-columns: 1fr;
-    gap: 4px;
+    gap: 6px;
   }
 
   .media-wrap {
