@@ -280,7 +280,11 @@ h1 {
   }
 
   .item-description {
-    display: none;
+    color: var(--muted);
+    font-size: 0.98rem;
+    line-height: 1.72;
+    max-width: 46ch;
+    text-align: center;
   }
 
   .shuffle-btn {
