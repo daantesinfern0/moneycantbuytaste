@@ -1,22 +1,166 @@
 const data = {
   movies: [
     {
-      title: "In the Mood for Love",
+      title: "Cure (1997)",
+      creator: "Directed by Kiyoshi Kurosawa",
+      description: "A chilling psychological thriller where violence, suggestion, and spiritual emptiness quietly infect everything.",
+      image: "images/movies/cure 1997.jpg"
+    },
+    {
+      title: "Demolition",
+      creator: "Directed by Jean-Marc Vallee",
+      description: "A strange and tender film about grief, collapse, and the urge to tear everything down to feel again.",
+      image: "images/movies/demolition.jpg"
+    },
+    {
+      title: "Donnie Darko",
+      creator: "Directed by Richard Kelly",
+      description: "A moody suburban nightmare where teenage alienation, time, and doom blur together.",
+      image: "images/movies/donnie darko.jpg"
+    },
+    {
+      title: "Fallen Angels",
       creator: "Directed by Wong Kar-wai",
-      description: "A restrained, intimate romance wrapped in longing, color, and unforgettable atmosphere.",
-      image: "https://i.pinimg.com/736x/6f/fc/56/6ffc56e797758be02d3ac43c41a421e8.jpg"
+      description: "A restless neon romance of loneliness, collision, and urban desire at strange hours.",
+      image: "images/movies/fallen angles.jpg"
     },
     {
-      title: "The Grand Budapest Hotel",
-      creator: "Directed by Wes Anderson",
-      description: "A stylish, sharply comic adventure with meticulous framing and a surprisingly heartfelt center.",
-      image: "https://i.pinimg.com/1200x/51/df/be/51dfbea4cccb5bff193c22e4d6a5e421.jpg"
+      title: "Fear and Loathing in Las Vegas",
+      creator: "Directed by Terry Gilliam",
+      description: "A manic and grotesque trip through excess, paranoia, and the chemical collapse of the American dream.",
+      image: "images/movies/fear and loathing in las vegas.jpg"
     },
     {
-      title: "Spirited Away",
-      creator: "Directed by Hayao Miyazaki",
-      description: "A dreamlike coming-of-age journey filled with wonder, strangeness, and emotional clarity.",
-      image: "https://images.unsplash.com/photo-1513106580091-1d82408b8cd6?auto=format&fit=crop&w=900&q=80"
+      title: "First Reformed",
+      creator: "Directed by Paul Schrader",
+      description: "A severe spiritual drama about guilt, ecological dread, and the slow unraveling of faith.",
+      image: "images/movies/first reformed.jpg"
+    },
+    {
+      title: "Ikiru",
+      creator: "Directed by Akira Kurosawa",
+      description: "A humanist masterpiece about mortality, purpose, and the search for one meaningful act.",
+      image: "images/movies/ikiru.jpg"
+    },
+    {
+      title: "Masque of the Red Death",
+      creator: "Directed by Roger Corman",
+      description: "A lush gothic horror film of plague, decadence, and the futility of trying to outrun death.",
+      image: "images/movies/masque of the red death.jpg"
+    },
+    {
+      title: "Memories of Murder",
+      creator: "Directed by Bong Joon-ho",
+      description: "A gripping crime film where procedural failure, violence, and social dread bleed into each other.",
+      image: "images/movies/memories of murder.jpg"
+    },
+    {
+      title: "Mishima: A Life in Four Chapters",
+      creator: "Directed by Paul Schrader",
+      description: "A formally brilliant portrait of art, discipline, performance, and self-destructive idealism.",
+      image: "images/movies/mishima a life in four chapters.jpg"
+    },
+    {
+      title: "Mulholland Drive",
+      creator: "Directed by David Lynch",
+      description: "A hypnotic Hollywood nightmare where identity, desire, and dream logic collapse into one another.",
+      image: "images/movies/mullholand drive.jpg"
+    },
+    {
+      title: "Mysterious Skin",
+      creator: "Directed by Gregg Araki",
+      description: "A devastating coming-of-age film about trauma, memory, and the painful struggle to understand oneself.",
+      image: "images/movies/mysterious skin.jpg"
+    },
+    {
+      title: "Parasite",
+      creator: "Directed by Bong Joon-ho",
+      description: "A razor-sharp social thriller where class desire, humiliation, and violence build with terrifying precision.",
+      image: "images/movies/parasite.jpg"
+    },
+    {
+      title: "Perfect Days",
+      creator: "Directed by Wim Wenders",
+      description: "A quiet and graceful film about routine, solitude, and the hidden richness of ordinary living.",
+      image: "images/movies/perfect days.jpg"
+    },
+    {
+      title: "Possession",
+      creator: "Directed by Andrzej Zulawski",
+      description: "A ferocious psychological horror film where desire, divorce, and madness become almost mythic.",
+      image: "images/movies/possession.jpg"
+    },
+    {
+      title: "Prisoners",
+      creator: "Directed by Denis Villeneuve",
+      description: "A tense moral thriller about desperation, punishment, and what fear does to ordinary people.",
+      image: "images/movies/prisoners.jpg"
+    },
+    {
+      title: "Ritual (2000)",
+      creator: "Directed by Hideaki Anno",
+      description: "A disorienting psychological film about repetition, emptiness, and the search for emotional contact.",
+      image: "images/movies/ritual 2000.jpg"
+    },
+    {
+      title: "Se7en",
+      creator: "Directed by David Fincher",
+      description: "A grim serial killer thriller drenched in rain, corruption, and moral despair.",
+      image: "images/movies/seven.jpg"
+    },
+    {
+      title: "The Seventh Seal",
+      creator: "Directed by Ingmar Bergman",
+      description: "A stark philosophical classic where death, doubt, and silence shape every encounter.",
+      image: "images/movies/seventh seal.jpg"
+    },
+    {
+      title: "Sonatine",
+      creator: "Directed by Takeshi Kitano",
+      description: "A cool and melancholy yakuza film about violence, boredom, and the strange calm before annihilation.",
+      image: "images/movies/sonatine.jpg"
+    },
+    {
+      title: "Suspiria (1977)",
+      creator: "Directed by Dario Argento",
+      description: "A feverish horror landmark built from color, sound, and pure nightmare sensation.",
+      image: "images/movies/suspiria 1977.jpg"
+    },
+    {
+      title: "Taste of Cherry",
+      creator: "Directed by Abbas Kiarostami",
+      description: "A meditative road film about death, dignity, and the fragile possibility of choosing life again.",
+      image: "images/movies/taste of cherry.jpg"
+    },
+    {
+      title: "Trainspotting",
+      creator: "Directed by Danny Boyle",
+      description: "A kinetic, darkly funny film about addiction, escape, and the ugly rush of self-destruction.",
+      image: "images/movies/trainspotting.jpg"
+    },
+    {
+      title: "Vanilla Sky",
+      creator: "Directed by Cameron Crowe",
+      description: "A glossy psychological romance where vanity, regret, and dreamlike unreality steadily take over.",
+      image: "images/movies/vanilla sky.jpg"
+    },
+    {
+      title: "Vertigo",
+      creator: "Directed by Alfred Hitchcock",
+      description: "A masterful spiral of obsession, projection, and the terrifying instability of desire.",
+      image: "images/movies/vertigo.jpg"
+    },
+    {
+      title: "Whiplash",
+      creator: "Directed by Damien Chazelle",
+      description: "A blistering drama of ambition, discipline, abuse, and the cost of greatness.",
+      image: "images/movies/whiplash.jpg"
+    },
+    {
+      title: "Wings of Desire",
+      creator: "Directed by Wim Wenders",
+      description: "A lyrical and deeply humane film about observation, longing, and the ache of becoming mortal.",
+      image: "images/movies/wings of desire.jpg"
     }
   ],
   tvShows: [
