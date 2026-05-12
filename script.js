@@ -253,10 +253,22 @@ const data = {
       image: "images/anime/Grave of the Fireflies.jpg"
     },
     {
+      title: "Fireworks (2017)",
+      creator: "Directed by Akiyuki Shinbo and Nobuyuki Takeuchi",
+      description: "A wistful and fragmented romance that turns adolescent longing into something dreamy, slippery, and melancholic.",
+      image: "images/anime/fireworks.jpg"
+    },
+    {
       title: "Akira",
       creator: "Directed by Katsuhiro Otomo",
       description: "A landmark cyberpunk film of psychic violence, urban decay, and social breakdown.",
       image: "images/anime/akira.jpg"
+    },
+    {
+      title: "Perfect Blue",
+      creator: "Directed by Satoshi Kon",
+      description: "A brilliant psychological thriller about fame, identity, paranoia, and the collapse of the line between self and performance.",
+      image: "images/anime/perfect blue.jpg"
     },
     {
       title: "Fate Franchise",
