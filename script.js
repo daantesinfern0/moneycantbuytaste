@@ -416,19 +416,253 @@ const data = {
       title: "Blonde",
       creator: "By Frank Ocean",
       description: "A hazy, emotionally rich album that feels intimate, fragmented, and quietly monumental.",
-      image: "https://i.pinimg.com/1200x/f3/40/f5/f340f56d0e1c57c948f4a2a07ac22d24.jpg"
+      image: "images/music/blonde.jpg"
     },
     {
-      title: "Currents",
-      creator: "By Tame Impala",
-      description: "Psychedelic pop polished into something sleek, hypnotic, and endlessly replayable.",
-      image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=900&q=80"
+      title: "The Dark Side of the Moon",
+      creator: "By Pink Floyd",
+      description: "A landmark psychedelic rock album of anxiety, time, and existential drift.",
+      image: "images/music/dark side of the moon.jpg"
     },
     {
-      title: "To Pimp a Butterfly",
+      title: "Days Before Rodeo",
+      creator: "By Travis Scott",
+      description: "A woozy, nocturnal mixtape full of menace, momentum, and restless ambition.",
+      image: "images/music/days before redeo.jpg"
+    },
+    {
+      title: "Disintegration",
+      creator: "By The Cure",
+      description: "A lush gothic record of longing, decay, and beautiful emotional ruin.",
+      image: "images/music/disintegration.jpg"
+    },
+    {
+      title: "Donuts",
+      creator: "By J Dilla",
+      description: "A miraculous beat tape that turns fragments, memory, and rhythm into something deeply human.",
+      image: "images/music/donuts.jpg"
+    },
+    {
+      title: "Doris",
+      creator: "By Earl Sweatshirt",
+      description: "A murky, self-aware rap album full of wit, withdrawal, and restless craft.",
+      image: "images/music/doris.jpg"
+    },
+    {
+      title: "Either/Or",
+      creator: "By Elliott Smith",
+      description: "A quietly devastating songwriter record of intimacy, ache, and precision.",
+      image: "images/music/either or.jpg"
+    },
+    {
+      title: "Fine Line",
+      creator: "By Harry Styles",
+      description: "A polished pop album that balances heartbreak, softness, and bright melodic confidence.",
+      image: "images/music/fine line.jpg"
+    },
+    {
+      title: "Folklore",
+      creator: "By Taylor Swift",
+      description: "A muted, story-driven album built from solitude, memory, and emotional weather.",
+      image: "images/music/folklore.jpg"
+    },
+    {
+      title: "Getting Killed",
+      creator: "By Geese",
+      description: "A wiry and unpredictable rock record full of tension, swagger, and strange emotional left turns.",
+      image: "images/music/getting killed.jpg"
+    },
+    {
+      title: "good kid, m.A.A.d city",
       creator: "By Kendrick Lamar",
-      description: "A bold, layered record that fuses jazz, funk, politics, and autobiography into a singular statement.",
-      image: "https://images.unsplash.com/photo-1501612780327-45045538702b?auto=format&fit=crop&w=900&q=80"
+      description: "A cinematic coming-of-age rap album driven by pressure, environment, and survival.",
+      image: "images/music/good kid mad city.jpg"
+    },
+    {
+      title: "Goodnight Summerland",
+      creator: "By Helena Deland",
+      description: "A dreamy indie record where grief and tenderness move through soft, reflective arrangements.",
+      image: "images/music/goodnight summerland.jpg"
+    },
+    {
+      title: "Grace",
+      creator: "By Jeff Buckley",
+      description: "A soaring rock album of romance, vulnerability, and ecstatic emotional intensity.",
+      image: "images/music/grace.jpg"
+    },
+    {
+      title: "Heaven or Las Vegas",
+      creator: "By Cocteau Twins",
+      description: "A shimmering dream-pop classic full of gloss, blur, and pure atmosphere.",
+      image: "images/music/heaven or las vegas.jpg"
+    },
+    {
+      title: "Heavy Metal",
+      creator: "By Cameron Winter",
+      description: "A raw and idiosyncratic record that leans into abrasion, personality, and restless emotional force.",
+      image: "images/music/heavy metal.jpg"
+    },
+    {
+      title: "Heroes & Villains",
+      creator: "By Metro Boomin",
+      description: "A sleek, blockbuster rap album built on menace, scale, and dark momentum.",
+      image: "images/music/heroes and villains.jpg"
+    },
+    {
+      title: "Heroes",
+      creator: "By David Bowie",
+      description: "A cold and triumphant art-rock album about damage, reinvention, and brief transcendence.",
+      image: "images/music/heroes.jpg"
+    },
+    {
+      title: "I Lay Down My Life for You",
+      creator: "By JPEGMAFIA",
+      description: "A volatile and inventive rap record full of abrasion, vulnerability, and total commitment.",
+      image: "images/music/i lay down my life for you.jpg"
+    },
+    {
+      title: "In Rainbows",
+      creator: "By Radiohead",
+      description: "A warm, intricate album where desire, anxiety, and beauty move in perfect tension.",
+      image: "images/music/in rainbows.jpg"
+    },
+    {
+      title: "Jar of Flies",
+      creator: "By Alice in Chains",
+      description: "A dark acoustic record of fatigue, grief, and bruised emotional honesty.",
+      image: "images/music/jar of flies.jpg"
+    },
+    {
+      title: "Mellon Collie and the Infinite Sadness",
+      creator: "By The Smashing Pumpkins",
+      description: "A huge alt-rock statement packed with grandeur, melancholy, and theatrical ambition.",
+      image: "images/music/mellon collie and the infinite sadnesss.jpg"
+    },
+    {
+      title: "Morningrise",
+      creator: "By Opeth",
+      description: "A long-form progressive metal album full of atmosphere, sorrow, and expansive darkness.",
+      image: "images/music/morningrise.jpg"
+    },
+    {
+      title: "My Beautiful Dark Twisted Fantasy",
+      creator: "By Kanye West",
+      description: "A maximalist rap album of ego, spectacle, excess, and emotional fracture.",
+      image: "images/music/my beautiful dark twisted fantasy.jpg"
+    },
+    {
+      title: "Nectar",
+      creator: "By Joji",
+      description: "A moody pop album where longing, detachment, and polish meet in wide emotional swings.",
+      image: "images/music/nectar.jpg"
+    },
+    {
+      title: "OK Computer",
+      creator: "By Radiohead",
+      description: "A paranoid and visionary rock album about alienation, systems, and modern unease.",
+      image: "images/music/ok computer.jpg"
+    },
+    {
+      title: "One More Light",
+      creator: "By Linkin Park",
+      description: "A vulnerable late-career pop-rock record centered on grief, care, and exhaustion.",
+      image: "images/music/one moer light.jpg"
+    },
+    {
+      title: "Power, Corruption & Lies",
+      creator: "By New Order",
+      description: "A cool, elegant synth-pop album built on tension, distance, and rhythmic clarity.",
+      image: "images/music/ower corruption and lies.jpg"
+    },
+    {
+      title: "Pray for the Wicked",
+      creator: "By Panic! at the Disco",
+      description: "A flashy pop record full of theatricality, confidence, and bright melodic drama.",
+      image: "images/music/pray for the wicked.jpg"
+    },
+    {
+      title: "Purpose",
+      creator: "By Justin Bieber",
+      description: "A polished pop album where vulnerability and radio-minded hooks work surprisingly well together.",
+      image: "images/music/purpose.jpg"
+    },
+    {
+      title: "Random Access Memories",
+      creator: "By Daft Punk",
+      description: "A lavish disco-pop album obsessed with memory, craft, and human feeling inside machine precision.",
+      image: "images/music/random access memories.jpg"
+    },
+    {
+      title: "Scaring the Hoes",
+      creator: "By JPEGMAFIA and Danny Brown",
+      description: "A chaotic, thrilling rap album built from abrasion, humor, and total refusal to smooth itself out.",
+      image: "images/music/scaring the hoes.jpg"
+    },
+    {
+      title: "Siamese Dream",
+      creator: "By The Smashing Pumpkins",
+      description: "A dense alt-rock classic full of distortion, yearning, and melodic overload.",
+      image: "images/music/siamese dream.jpg"
+    },
+    {
+      title: "Smithereens",
+      creator: "By Joji",
+      description: "A brief and fragile album built from soft edges, emotional drift, and understated ache.",
+      image: "images/music/smithereens.jpg"
+    },
+    {
+      title: "Souvlaki",
+      creator: "By Slowdive",
+      description: "A dream-pop landmark of blur, texture, and emotional suspension.",
+      image: "images/music/souvlaki.jpg"
+    },
+    {
+      title: "The New Abnormal",
+      creator: "By The Strokes",
+      description: "A mature rock comeback full of fatigue, cool restraint, and late-night clarity.",
+      image: "images/music/the new abnormal.jpg"
+    },
+    {
+      title: "The Outside Room",
+      creator: "By Weyes Blood",
+      description: "A dreamy and intimate record where melancholy, devotion, and atmosphere drift together beautifully.",
+      image: "images/music/the outside room.jpg"
+    },
+    {
+      title: "Turn On the Bright Lights",
+      creator: "By Interpol",
+      description: "A sleek post-punk debut of urban dread, elegance, and emotional distance.",
+      image: "images/music/turn on the bright lights.jpg"
+    },
+    {
+      title: "Ultraviolence",
+      creator: "By Lana Del Rey",
+      description: "A slow-burning noir-pop record full of glamour, damage, and dangerous romance.",
+      image: "images/music/ultraviolence.jpg"
+    },
+    {
+      title: "The Velvet Underground & Nico",
+      creator: "By The Velvet Underground and Nico",
+      description: "A foundational art-rock album of transgression, coolness, and strange enduring beauty.",
+      image: "images/music/velvet underground and nico.jpg"
+    },
+    {
+      title: "We Will Always Love You",
+      creator: "By The Avalanches",
+      description: "A lush, sample-heavy record about loss, transmission, and cosmic intimacy.",
+      image: "images/music/we will always love you.jpg"
+    },
+    {
+      title: "(What's the Story) Morning Glory?",
+      creator: "By Oasis",
+      description: "A swaggering Britpop classic made of scale, hooks, and emotional overstatement.",
+      image: "images/music/whats the story morning glroy.jpg"
+    },
+    {
+      title: "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
+      creator: "By David Bowie",
+      description: "A glam-rock classic of myth, performance, apocalypse, and star-making self-invention.",
+      image: "images/music/ziggy stardust.jpg"
     }
   ]
 };
