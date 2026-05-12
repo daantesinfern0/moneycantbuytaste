@@ -116,15 +116,15 @@ h1 {
 
 .card {
   display: grid;
-  grid-template-columns: minmax(240px, 340px) minmax(0, 1fr);
-  gap: 14px;
+  grid-template-columns: minmax(150px, 340px) minmax(0, 1fr);
+  gap: 20px;
   align-items: center;
 }
 
 .media-wrap {
   position: relative;
   min-height: 420px;
-  border-radius: 6px;
+  border-radius: 4px;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.04);
 }
@@ -134,7 +134,7 @@ h1 {
   height: 100%;
   display: block;
   object-fit: cover;
-  border-radius: 14px;
+  border-radius: 8px;
 }
 
 .media-wrap img:not([src]),
@@ -154,6 +154,7 @@ h1 {
   font-size: 0.74rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
+  padding: 18px;
 }
 
 .content-wrap h2 {
@@ -164,9 +165,12 @@ h1 {
   line-height: 1;
 }
 
+.item-title,
 .item-creator,
 .item-description {
   margin: 0;
+  text-align: left;
+  padding: 0px 18px;
 }
 
 .item-creator {
