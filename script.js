@@ -77,42 +77,216 @@ const data = {
   ],
   games: [
     {
-      title: "Disco Elysium",
-      creator: "Developed by ZA/UM",
-      description: "A deeply written role-playing game where thought, politics, and personality matter as much as action.",
-      image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=900&q=80"
+      title: "Elden Ring",
+      creator: "Developed by FromSoftware",
+      description: "A vast dark fantasy adventure built on mystery, dread, discovery, and the thrill of overcoming impossible odds.",
+      image: "images/games/elden ring.jpg"
     },
     {
-      title: "The Legend of Zelda: Breath of the Wild",
-      creator: "Developed by Nintendo",
-      description: "An open-world adventure built around curiosity, freedom, and the joy of experimenting.",
-      image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=900&q=80"
+      title: "Battlefield 1",
+      creator: "Developed by DICE",
+      description: "A war shooter that trades clean heroism for mud, spectacle, chaos, and the sense of history collapsing around you.",
+      image: "images/games/battlefield 1.jpg"
     },
     {
-      title: "Hades",
-      creator: "Developed by Supergiant Games",
-      description: "A fast, stylish action roguelike with strong character writing and endlessly satisfying combat.",
-      image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=900&q=80"
+      title: "Call of Duty: Black Ops",
+      creator: "Developed by Treyarch",
+      description: "A stylish Cold War shooter full of paranoia, fractured memory, and some of the series' most iconic momentum.",
+      image: "images/games/cod black ops 1.jpg"
+    },
+    {
+      title: "Call of Duty: Modern Warfare 2",
+      creator: "Developed by Infinity Ward",
+      description: "A bombastic military shooter remembered for its cinematic scale, sharp pacing, and legendary multiplayer energy.",
+      image: "images/games/modern warfare 2.jpg"
+    },
+    {
+      title: "Skyrim",
+      creator: "Developed by Bethesda Game Studios",
+      description: "A huge fantasy sandbox built on wandering, roleplay, atmosphere, and the freedom to disappear into another life.",
+      image: "images/games/skyrim.jpg"
+    },
+    {
+      title: "The Witcher 3",
+      creator: "Developed by CD Projekt Red",
+      description: "A richly written fantasy role-playing game full of moral ambiguity, melancholy landscapes, and unforgettable quests.",
+      image: "images/games/witcher 3.jpg"
+    },
+    {
+      title: "Outlast",
+      creator: "Developed by Red Barrels",
+      description: "A relentless first-person horror game that turns helplessness, darkness, and pursuit into pure panic.",
+      image: "images/games/outlast.jpg"
+    },
+    {
+      title: "SOMA",
+      creator: "Developed by Frictional Games",
+      description: "A haunting sci-fi horror game about consciousness, identity, and the horror of continuing to exist.",
+      image: "images/games/soma.jpg"
+    },
+    {
+      title: "Bloodborne",
+      creator: "Developed by FromSoftware",
+      description: "A feverish gothic action RPG where speed, aggression, and cosmic terror merge into something unforgettable.",
+      image: "images/games/bloodborne.jpg"
+    },
+    {
+      title: "GTA Vice City",
+      creator: "Developed by Rockstar North",
+      description: "A neon-soaked crime epic fueled by style, radio culture, ambition, and the fantasy of reinvention.",
+      image: "images/games/vice city.jpg"
+    },
+    {
+      title: "Far Cry 4",
+      creator: "Developed by Ubisoft Montreal",
+      description: "An open-world action game that mixes revolution, chaos, and beautiful landscapes with unpredictable violence.",
+      image: "images/games/far cry 4.jpg"
+    },
+    {
+      title: "Resident Evil 2",
+      creator: "Developed by Capcom",
+      description: "A survival horror classic of dread, resource scarcity, and precise tension inside a collapsing city.",
+      image: "images/games/resident evil 2.jpg"
+    },
+    {
+      title: "Resident Evil 7",
+      creator: "Developed by Capcom",
+      description: "A first-person horror reinvention that traps you inside rot, madness, and suffocating domestic terror.",
+      image: "images/games/resident evil 7.jpg"
+    },
+    {
+      title: "Need for Speed: Most Wanted",
+      creator: "Developed by EA Black Box",
+      description: "An arcade racing game driven by speed, pursuit, swagger, and the thrill of escaping impossible odds.",
+      image: "images/games/most wanted.jpg"
+    },
+    {
+      title: "Tekken 3",
+      creator: "Developed by Namco",
+      description: "A landmark fighting game that blends fast movement, iconic characters, and pure arcade confidence.",
+      image: "images/games/tekken 3.jpg"
+    },
+    {
+      title: "Batman: Arkham Asylum",
+      creator: "Developed by Rocksteady Studios",
+      description: "A dark superhero action game where stealth, combat, and gothic atmosphere come together with unusual precision.",
+      image: "images/games/arkham asylum.jpg"
     }
   ],
   anime: [
     {
-      title: "Neon Genesis Evangelion",
-      creator: "Created by Hideaki Anno",
-      description: "A psychologically intense sci-fi series that mixes apocalyptic spectacle with loneliness, identity, and fear.",
-      image: "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=900&q=80"
+      title: "One Piece",
+      creator: "Created by Eiichiro Oda",
+      description: "A sprawling adventure saga built on friendship, freedom, absurdity, and the relentless pursuit of impossible dreams.",
+      image: "images/anime/ONE PIECE.jpg"
     },
     {
-      title: "Cowboy Bebop",
-      creator: "Directed by Shinichiro Watanabe",
-      description: "A stylish space western full of melancholy, rhythm, and effortless cool.",
-      image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=900&q=80"
+      title: "Dororo",
+      creator: "Based on the manga by Osamu Tezuka",
+      description: "A dark historical fantasy about bodily loss, revenge, and the difficult recovery of one's humanity.",
+      image: "images/anime/dororo.jpg"
+    },
+    {
+      title: "Fullmetal Alchemist: Brotherhood",
+      creator: "Based on the manga by Hiromu Arakawa",
+      description: "A rich fantasy epic balancing grief, ethics, war, sacrifice, and the bond between two brothers.",
+      image: "images/anime/fullmetal alchemist.jpg"
     },
     {
       title: "Monster",
       creator: "Based on the manga by Naoki Urasawa",
       description: "A slow-burn thriller built on moral tension, obsession, and one of anime's most haunting villains.",
-      image: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=900&q=80"
+      image: "images/anime/monster.jpg"
+    },
+    {
+      title: "Blue Period",
+      creator: "Based on the manga by Tsubasa Yamaguchi",
+      description: "A reflective coming-of-age story about art, ambition, insecurity, and the struggle to make meaning through creation.",
+      image: "images/anime/blue period.jpg"
+    },
+    {
+      title: "Attack on Titan",
+      creator: "Based on the manga by Hajime Isayama",
+      description: "A brutal and escalating epic of survival, ideology, and the terrifying costs of freedom.",
+      image: "images/anime/attack on titan.jpg"
+    },
+    {
+      title: "Noragami",
+      creator: "Based on the manga by Adachitoka",
+      description: "A supernatural action series mixing humor, loneliness, and the search for purpose with surprising emotional depth.",
+      image: "images/anime/noragami.jpg"
+    },
+    {
+      title: "Tokyo Ghoul",
+      creator: "Based on the manga by Sui Ishida",
+      description: "A dark fantasy about identity, hunger, cruelty, and the instability of living between two worlds.",
+      image: "images/anime/tokyo ghoul.jpg"
+    },
+    {
+      title: "Your Lie in April",
+      creator: "Based on the manga by Naoshi Arakawa",
+      description: "A bittersweet drama about music, grief, and the painful beauty of emotional awakening.",
+      image: "images/anime/your lie in april.jpg"
+    },
+    {
+      title: "Erased",
+      creator: "Based on the manga by Kei Sanbe",
+      description: "A tense mystery that blends time travel, childhood trauma, and the desperate wish to undo tragedy.",
+      image: "images/anime/erased.jpg"
+    },
+    {
+      title: "Vinland Saga",
+      creator: "Based on the manga by Makoto Yukimura",
+      description: "A historical epic about revenge, war, and the long, difficult path toward a different kind of strength.",
+      image: "images/anime/vinland saga.jpg"
+    },
+    {
+      title: "Evangalion",
+      creator: "Created by Hideaki Anno",
+      description: "A psychologically intense sci-fi work that turns apocalypse, depression, and adolescence into something raw and mythic.",
+      image: "images/anime/evangalion.jpg"
+    },
+    {
+      title: "Grave of the Fireflies",
+      creator: "Directed by Isao Takahata",
+      description: "A devastating anti-war film about innocence, hunger, and the human cost of total collapse.",
+      image: "images/anime/Grave of the Fireflies.jpg"
+    },
+    {
+      title: "Akira",
+      creator: "Directed by Katsuhiro Otomo",
+      description: "A landmark cyberpunk film of psychic violence, urban decay, and social breakdown.",
+      image: "images/anime/akira.jpg"
+    },
+    {
+      title: "Fate Franchise",
+      creator: "Created by Type-Moon",
+      description: "A sprawling fantasy franchise of heroic spirits, violent ideals, and elaborate clashes between destiny and desire.",
+      image: "images/anime/fate.jpg"
+    },
+    {
+      title: "Berserk",
+      creator: "Based on the manga by Kentaro Miura",
+      description: "A dark fantasy masterpiece of trauma, rage, ambition, and endurance in the face of monstrous cruelty.",
+      image: "images/anime/Cvlt of the Pop Cvlture.jpg"
+    },
+    {
+      title: "Cowboy Bebop",
+      creator: "Directed by Shinichiro Watanabe",
+      description: "A stylish space western full of melancholy, rhythm, and effortless cool.",
+      image: "images/anime/cowboy bepop.jpg"
+    },
+    {
+      title: "Samurai Champloo",
+      creator: "Directed by Shinichiro Watanabe",
+      description: "A kinetic samurai road story mixing style, music, improvisation, and emotional restlessness.",
+      image: "images/anime/samurai champloo.jpg"
+    },
+    {
+      title: "Death Note",
+      creator: "Based on the manga by Tsugumi Ohba and Takeshi Obata",
+      description: "A sharp cat-and-mouse thriller about power, justice, ego, and the corruption that follows certainty.",
+      image: "images/anime/death note.jpg"
     }
   ],
   books: [
