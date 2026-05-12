@@ -285,6 +285,7 @@ h1 {
     line-height: 1.72;
     max-width: 46ch;
     text-align: center;
+    padding-top: 15px;
   }
 
   .shuffle-btn {

@@ -45,7 +45,7 @@ const data = {
     {
       title: "Masque of the Red Death",
       creator: "Directed by Roger Corman",
-      description: "A lush gothic horror film of plague, decadence, and the futility of trying to outrun death.",
+      description: "A gothic horror film of plague, decadence, and the futility of trying to outrun death.",
       image: "images/movies/masque of the red death.jpg"
     },
     {
