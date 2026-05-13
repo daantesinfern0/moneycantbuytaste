@@ -53,7 +53,7 @@ body {
 .hero {
   display: grid;
   justify-items: center;
-  gap: 18px;
+  gap: 8px;
   text-align: center;
 }
 
@@ -90,9 +90,10 @@ h1 {
 }
 
 .toggle-btn {
-  padding: 0 0 4px;
-  border-bottom: 1px solid transparent;
-  background: transparent;
+  padding: 3px 3px 3px 3px;
+  border: 1.5px solid transparent;
+  background:rgba(44, 54, 75, 0.48);
+  border-radius: 3px;
   color: var(--muted);
   font-size: 0.86rem;
   font-weight: 500;
@@ -112,6 +113,7 @@ h1 {
   color: var(--text);
   opacity: 1;
   border-color: rgba(255, 255, 255, 0.7);
+  color: #4b6f96;
 }
 
 .card {
@@ -235,7 +237,7 @@ h1 {
   .card {
     grid-template-columns: 1fr;
     gap: 6px;
-    height: 500px;
+    height: 540px;
   }
 
   .media-wrap {
