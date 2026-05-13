@@ -43,6 +43,12 @@ const data = {
       image: "images/movies/ikiru.jpg"
     },
     {
+      title: "Ran",
+      creator: "Directed by Akira Kurosawa",
+      description: "Shakespeare’s King Lear is reimagined as an ageing warlord retires and entrusts his empire to his three sons.",
+      image: "images/movies/ran.jpg"
+    },
+    {
       title: "Masque of the Red Death",
       creator: "Directed by Roger Corman",
       description: "A gothic horror film of plague, decadence, and the futility of trying to outrun death.",
@@ -65,6 +71,18 @@ const data = {
       creator: "Directed by David Lynch",
       description: "A hypnotic Hollywood nightmare where identity, desire, and dream logic collapse into one another.",
       image: "images/movies/mullholand drive.jpg"
+    },
+    {
+      title: "Blue Velvet",
+      creator: "Directed by David Lynch",
+      description: "A college student who, after finding a severed ear in a field, uncovers a dark kidnapping conspiracy.",
+      image: "images/movies/blue velvet.jpg"
+    },
+    {
+      title: "Twin Peaks: Fire Walk with Me",
+      creator: "Directed by David Lynch",
+      description: " In the cozy town of Twin Peaks, hedonistic beauty Laura Palmer hangs with lowlifes and seems destined for a grisly fate.",
+      image: "images/movies/fire walk with me.jpg"
     },
     {
       title: "Mysterious Skin",
@@ -151,6 +169,12 @@ const data = {
       image: "images/movies/vertigo.jpg"
     },
     {
+      title: "Psycho",
+      creator: "Directed by Alfred Hitchcock",
+      description: "A secretary on the run for embezzlement takes refuge at a secluded California motel owned by a repressed man and his overbearing mother",
+      image: "images/movies/psycho.jpg"
+    },
+    {
       title: "Whiplash",
       creator: "Directed by Damien Chazelle",
       description: "A blistering drama of ambition, discipline, abuse, and the cost of greatness.",
@@ -161,6 +185,12 @@ const data = {
       creator: "Directed by Wim Wenders",
       description: "A lyrical and deeply humane film about observation, longing, and the ache of becoming mortal.",
       image: "images/movies/wings of desire.jpg"
+    },
+    {
+      title: "Detachment",
+      creator: "Directed by Tony Kaye",
+      description: "Henry, an English teacher roams from school to school, imparting knowledge, but never staying long enough to form any semblance of sentient attachment.",
+      image: "images/movies/detachment.jpg"
     }
   ],
   tvShows: [
