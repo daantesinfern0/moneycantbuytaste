@@ -91,8 +91,8 @@ h1 {
 
 .toggle-btn {
   padding: 3px 3px 3px 3px;
-  border: 1.5px solid transparent;
-  background:rgba(44, 54, 75, 0.48);
+  /* border: 1.5px solid transparent; */
+  background:rgba(58, 69, 92, 0.48);
   border-radius: 3px;
   color: var(--muted);
   font-size: 0.86rem;
